@@ -15,5 +15,13 @@ public class Main {
         dog.makeSound();
 
 
+        int studentScores [] = {100, 82, 93, 73, 87, 65};
+        for (int i=0; i<studentScores.length; i++){
+            if (studentScores[i]>75) {
+                System.out.println(studentScores[i]);
+            }
+        }
+
+
     }
 }
