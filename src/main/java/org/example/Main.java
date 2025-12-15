@@ -30,6 +30,11 @@ public class Main {
         rose.bloom();
         rose.smell();
 
+        Document document = new Document();
+        document.print();
+        document.scan();
+        document.save();
+
 
     }
 }
