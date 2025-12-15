@@ -35,6 +35,13 @@ public class Main {
         document.scan();
         document.save();
 
+        Example example= new Example();
+        int [] numbers={1,2,3,4};
+        String [] words={"one", "two", "three"};
+
+        example.show(numbers);
+        example.show(words);
+
 
     }
 }
