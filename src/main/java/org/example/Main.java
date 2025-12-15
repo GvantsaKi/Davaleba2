@@ -11,6 +11,9 @@ public class Main {
         student.printInfo();
         student.printStudentInfo();
 
+        Dog dog = new Dog();
+        dog.makeSound();
+
 
     }
 }
