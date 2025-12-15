@@ -22,6 +22,14 @@ public class Main {
             }
         }
 
+        Rose rose = new Rose();
+        rose.color="Red";
+        rose.petals=32;
+        rose.setHeight(50);
+
+        rose.bloom();
+        rose.smell();
+
 
     }
 }
